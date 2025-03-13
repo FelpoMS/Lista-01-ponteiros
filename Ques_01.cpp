@@ -24,10 +24,10 @@ int main(){
 	Software s[i];
 		
 	printf("Cadastro de Software. ()nome: \n");
-	scanf("%c",s[i].nom);
+	scanf("%s",s[i].nom);
 	
 	printf("\nCadastro de Software. ()categoria: \n");
-	scanf("%c",s[i].cat);
+	scanf("%s",s[i].cat);
 	
 	printf("\nCadastro de Software. ()nota(1-10): \n");
 	scanf("%d",&s[i].notn);
